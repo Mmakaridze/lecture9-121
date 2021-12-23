@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Candal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+/* ნავიგაციის სტილები */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+    width: 100%;
+    height: 60px;
+    padding-top: 15px;
+    background-color:darkslategrey
+}
+.logo {
+    font-size: 25px;
+    color: red;
+    font-family: 'Candal', sans-serif;
+    width: 170px;
+}
+.navigation {
+    display: flex;   
+}
+.navigation-ul {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+}
+.div-i {
+    display: none;
+    color: red;
+    font-size: 25px;
+}
+.a-child {
+    font-size: 25px;
+    color: red;
+    font-family: 'Sansita', sans-serif;
+    display: flex;
+    position: relative;
+}
+.span {
+    color: blue;
+}
+/* .a-child::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    margin-top: 30px;
+    background-color: #FFFFFF;
+    position: absolute;
+} */
+.a-child:hover::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    margin-top: 30px;
+    background-color: red;
+    position: absolute;
+}
+/* background-image */
+.bg-image {
+    background-image: url(../images/header-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 324px;
+    position: absolute;
+}
+.div-h1-aboutus {
+    position: relative;
+    max-width: 250px;
+    width: 100%;
+    top: 170px;
+    left: 270px;
+}
+.h1-aboutus {
+    font-size: 42px;
+    color: #FFFFFF;
+    font-family: 'Candal', sans-serif;
+}
+.div-text {
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: 'Candal', sans-serif;
+}
+.div-h2 {
+    position: relative;
+    max-width: 170px;
+    width: 100%;
+    top: 170px;
+    left: 270px;
+    display: flex;
+    margin-top: 32px;
+}
+.div-h2-2 {
+    margin-left: 19px;
+}
+.div-h2-1 {
+    display: flex
+}
+.div-h2-1::after {
+    content: ' ';
+    width: 1px;
+    height: 20px;
+    background-color: #FFFFFF;
+    margin-left: 19px;
+    display: inline-block;
+}
+/* პირველი სექციის სტილები */
+.section-one {
+    margin-top: 324px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+.section-one-div1 {
+    max-width: 500px;
+    width: 100%;
+}
+.section-one-h2 {
+    font-size: 20px;
+    color: blue;
+    font-family: 'Berkshire Swash', cursive;
+}
+.section-one-h3 {
+    font-size: 40px;
+    font-family: 'Berkshire Swash', cursive;
+    max-width: 300px;
+    width: 100%;
+    margin-top: 30px;
+}
+.section-one-p {
+    font-size: 20px;
+    font-family: 'Berkshire Swash', cursive;
+    max-width: 500px;
+    width: 100%;
+    margin-top: 15px;
+}
+.section-one-div {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 200px;
+    width: 100;
+    height: 50px;
+    background-color: #5863F8;
+}
+.readmore {
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: 'Candal', sans-serif;
+}
+.section-one-div2 {
+    max-width: 600px;
+    width: 100%;
+}
+.image1 {
+    opacity: 0.5;
+}
+.image2 {
+    opacity: 0.5;
+    margin-left: 11px;
+}
+.image3 {
+    opacity: 0.5;
+    margin-top: 11px;
+}
+.image1:hover {
+    opacity: 1;
+}
+.image2:hover {
+    opacity: 1;
+}
+.image3:hover {
+    opacity: 1;
+}
+/* მეორე სექციის სტილები */
+.bg-image1 {
+    background-image: url(../images/section-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    /* position: absolute; */
+}
+.section-two-h2 {
+    font-size: 20px;
+    color: blue;
+    max-width: 100px;
+    width: 100%;
+    font-family: 'Berkshire Swash', cursive;
+}
+.section-two-h3 {
+    margin-top: 15px;
+    font-size: 35px;
+    color: #FFFFFF;
+    max-width: 300px;
+    width: 100%;
+    font-family: 'Berkshire Swash', cursive;
+}
+.section-two-div1 {
+    position: relative;
+    top: 50px;
+    margin-left: 100px;
+}
+.section-two-div2 {
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    width: 100%;
+    margin-top: 80px;
+}
+.section-two-div {
+    background-color: #FFFFFF;
+    position: relative;
+    max-width: 260px;
+    width: 100%;
+    height: 260px; 
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.div-image {
+    max-width: 60px;
+    width: 100%;
+    height: 60px;
+    background: #3D37F1;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+}
+.section-two-div-h2 {
+    font-size: 30px;
+    font-family: 'Berkshire Swash', cursive;
+    margin-top: 30px;
+}
+.section-two-div-p {
+    font-size: 16px;
+    font-family: 'Berkshire Swash', cursive;
+    margin-top: 30px;
+}
