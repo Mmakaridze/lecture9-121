@@ -15,7 +15,6 @@
     width: 100%;
     height: 60px;
     padding-top: 15px;
-    background-color:darkslategrey
 }
 .logo {
     font-size: 25px;
@@ -54,14 +53,14 @@
 .span {
     color: blue;
 }
-/* .a-child::after {
+.a-child::after {
     content: '';
-    width: 100%;
+    width: 0%;
     height: 2px;
     margin-top: 30px;
     background-color: #FFFFFF;
     position: absolute;
-} */
+}
 .a-child:hover::after {
     content: '';
     width: 100%;
@@ -69,6 +68,7 @@
     margin-top: 30px;
     background-color: red;
     position: absolute;
+    transition-duration: 0.5s;
 }
 /* background-image */
 .bg-image {
